@@ -1,3 +1,21 @@
+<?php
+        $SESSION(start);
+        if(isset($_SESSION["uname"]))
+        echo "<span style='color:red;'>Required</span>";
+        if(isset($_SESSION["email"]))
+        echo "<span style='color:red;'>Required</span>";
+        if(isset($_SESSION["gender"]))
+        echo "<span style='color:red;'>Required</span>";
+        if(isset($_SESSION["contact"]))
+        echo "<span style='color:red;'>Required</span>";
+        if(isset($_SESSION["password"]))
+        echo "<span style='color:red;'>Required</span>";
+        if(isset($_SESSION["title"]))
+        echo "<span style='color:red;'>Required</span>";
+        if(isset($_SESSION["address"]))
+        echo "<span style='color:red;'>Required</span>";
+
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
